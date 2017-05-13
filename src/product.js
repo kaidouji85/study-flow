@@ -1,5 +1,11 @@
 /* @flow */
 
+/**
+ * 製品情報関連の処理をまとめたもの
+ *
+ * @author y.takeuchi
+ */
+
 /** 製品情報 */
 export type Product = {
   /** ユニークID */
