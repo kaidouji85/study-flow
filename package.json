@@ -6,16 +6,17 @@
   "scripts": {
     "start": "webpack-dev-server",
     "postinstall": "npm run build",
-    "build": "webpack"
+    "flow": "flow",
+    "build": "npm run flow && webpack"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
-    "babel-plugin-transform-flow-strip-types": "^6.22.0",
     "babel-preset-env": "^1.4.0",
     "babel-preset-es2017": "^6.24.1",
+    "babel-preset-flow": "^6.23.0",
     "flow-bin": "^0.46.0",
     "webpack": "^2.5.1",
     "webpack-dev-server": "^2.4.5"
